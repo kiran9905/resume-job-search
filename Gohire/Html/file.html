@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Go Hire</title>
+    <link href="../Assect/favicon-32x32.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./file.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+</head>
+
+<body class="bodyforcolor">
+    <div class="div1">
+        <img class="imginleft" src="../Assect/logo-transparent.png" alt="Go Hire Logo">
+        <h5 style="font-family: cursive;">You Matter for us</h5>
+        <h2 id="headline" style="
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+      ">
+        🚀 We Make Your Job Search Easy
+      </h2>
+      
+    </div>
+    <br><br>
+    <div class="card" style="width: 30%;float: left;">
+        <img src="../Assect/moss-green-color-solid-background-1920x1080.png" alt="Card Image">
+        <div class="info">
+            <h1 >How It Works</h1>
+            <p>"Upload your resume here, and we'll automatically search for suitable job opportunities based on your skills and experience!".</p>
+        </div>
+    </div>
+    <div class="div3" style="width: 65%;float: right;">
+        <form class="resume-box" >
+            <h2>Upload Your Resume</h2>
+            <p>We'll automatically find jobs that match your skills.</p>
+            <input type="file" id="pdfFile" accept=".pdf" required>
+            <br><br><br> 
+            <!-- <button type="submit">Submit</button> -->
+        </form>  
+    </div>
+    <div id="output" style="white-space: pre-wrap; margin-top: 20px; background: transparent;color: black; padding: 10px; border-radius: 5px; margin-top: 350px;"></div>
+    <div id="jobLinkContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 8px;"></div>
+    <script src="./scripts.js" defer></script>
+</body>
+</html>

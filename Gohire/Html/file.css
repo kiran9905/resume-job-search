@@ -1,0 +1,238 @@
+.bodyforcolor{
+    background: linear-gradient(to right, white, gray);
+
+}
+.imginleft{
+    height: 50px;
+    border-radius: 20px; 
+}
+.imginleft:hover{
+   filter: drop-shadow(10px 10px 20px  rgb(96, 175, 181));
+}
+.homebar{
+    display: inline-flex;
+    gap: 50px;
+}
+.h4{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.div1{
+    width: 100%;
+}
+.resume{
+    margin-left: 150px;
+    text-size-adjust: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div2{
+    background-color: rgb(36, 34, 34);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+/* }
+.card {
+    width: 280px;
+    height: 360px;
+    padding: 2px 1px;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 5px 7px 10px rgb(38, 155, 38);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translate(20px);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card .info {
+    position: relative;
+    z-index: 3;
+    color: black;
+    font-family: cursive;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    padding: 20px;
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+} */
+.card {
+    width: 280px;
+    border-radius: 12px;
+    height: 360px;
+    padding: 2px 1px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 10px 7px 10px gray;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translate(20px);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .info {
+    position: relative;
+    z-index: 3;
+    color:black;
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    padding: 20px;
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info p {
+    font-size: 16px;
+    margin-top: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.div3{
+    background-color: gray;
+    height: 380px;
+    border-radius: 20px;
+    /* transition: 0.5s ease-in-out; */
+ 
+}
+  #headline {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #2b6cb0, 0 0 10px #2b6cb0;
+    }
+    to {
+      text-shadow: 0 0 15px red, 0 0 20px orange;
+    }
+  }
+
+.div3:hover{
+    
+    background-color: #333;
+
+}
+ .resume-box {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.resume-box h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resume-box p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: cursive;
+
+}
+
+.resume-box input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#jobLinkContainer a {
+    color: #0a66c2;                 /* LinkedIn-like blue */
+    text-decoration: none;         /* Remove underline */
+    font-weight: 500;              /* Slightly bolder text */
+    text-decoration: none;
+  }
+  #jobLinkContainer a:hover{
+    /* background-color: #1c5690; */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    /* width: 300px; */
+    text-decoration: none;
+    /* text-align: center; */
+ filter: drop-shadow(5px 2px 10px rgb(35, 121, 178));
+  }
+  #jobLinkContainer a:hover {
+    text-decoration: underline;    /* Underline on hover for feedback */
+  }
